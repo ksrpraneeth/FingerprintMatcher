@@ -32,8 +32,7 @@ This project helps you to match two ISO/IEC 19794-2 fingerprint templates using 
 
 >  chmod u+x runFingerPrint.sh
 
- - **Step 6**: Open runFingerPrintMatcher.sh file and modify the java code
-   path
+ - **Step 6**: Open runFingerPrintMatcher.sh file and replace ***Java program path*** with your java program path
 
    
 
@@ -41,8 +40,7 @@ This project helps you to match two ISO/IEC 19794-2 fingerprint templates using 
 >       then
 >         echo "No arguments supplied"
 >     else
->     java -Djava.library.path=/usr/local/lib  -cp :/home/ubuntu/TestFinger/mypack/lib/FDxSDKPro.jar:/***Java program
- path***/mypack  FingerPrint $1 $2
+>     java -Djava.library.path=/usr/local/lib  -cp :/home/ubuntu/***Java program path***/mypack/lib/FDxSDKPro.jar:/***Java program path***/mypack  FingerPrint $1 $2
 >     fi
 
  - **Step 7**: Run shell script by passing two ISO/IEC 19794-2 templates as
