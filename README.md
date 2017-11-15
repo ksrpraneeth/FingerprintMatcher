@@ -13,12 +13,12 @@ This project helps you to match two ISO/IEC 19794-2 fingerprint templates using 
              https://askubuntu.com/a/41334
  - **Step 2**: Install requied .So files from respected folder in this
    project to your pc's /usr/local/lib directory
-             x86 : (32 bit)
-             Go to x86 folder and type "make"
-             x64 : (64 bit)
-             Go to x64 folder and type "make"
-             These above instruction will install all the required drivers to /usr/local/lib
- 
+                  
+	 - *x86 : (32 bit)*
+			Go to x86 folder and type "make"
+	 - *x64 : (64 bit)*
+			Go to x64 folder and type "make"
+	  - These above instruction will install all the required drivers to /usr/local/lib
  - **Step 3**:
              Move "FingerPrintMatcher" folder to your "/home/<user>/" directory
 
